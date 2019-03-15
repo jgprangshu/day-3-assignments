@@ -20,8 +20,6 @@ public class TriangleTest{
 		{
 			
 			assertTrue(object1.checkRightAngledTriangle());
-
-
 		}
 
 		@Test
@@ -29,16 +27,12 @@ public class TriangleTest{
 		{
 			
 			assertTrue(object1.checkScaleneTriangle());
-
-
 		}
 
 		@Test
 		public void findEquilateralTriangle()
 		{
 			assertTrue(object1.checkEquilateralTriangle());
-
-
 		}
 
 		@Test
@@ -46,15 +40,7 @@ public class TriangleTest{
 		{
 			assertTrue(object1.checkIsoscelesTriangle());
 
-
 		}
-
-
-
-
-		
-
-
 
 
 }
